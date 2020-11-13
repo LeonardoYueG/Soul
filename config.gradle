@@ -1,0 +1,28 @@
+ext {
+    //Android配置
+    android = [
+            compileSdkVersion        : 30,
+            buildToolsVersion        : "30.0.2",
+            applicationId            : "com.test.soul",
+            minSdkVersion            : 25,
+            targetSdkVersion         : 30,
+            versionCode              : 1,
+            versionName              : "1.0",
+            testInstrumentationRunner: "androidx.test.runner.AndroidJUnitRunner",
+
+            consumerProguardFiles    : "consumer-rules.pro"
+    ]
+    //Dependencies配置
+    dependencies = [
+            appcompat          : 'androidx.appcompat:appcompat:1.2.0',
+            material           : 'com.google.android.material:material:1.2.1',
+            constraintlayout   : 'androidx.constraintlayout:constraintlayout:2.0.4',
+            navigation_fragment: 'androidx.navigation:navigation-fragment:2.3.1',
+            navigation_ui      : 'androidx.navigation:navigation-ui:2.3.1',
+            junit              : 'junit:junit:4.+',
+            ext_junit          : 'androidx.test.ext:junit:1.1.2',
+            espresso_core      : 'androidx.test.espresso:espresso-core:3.3.0'
+    ]
+
+
+}

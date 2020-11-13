@@ -1,0 +1,3 @@
+include ':Framework'
+include ':app'
+rootProject.name = "Soul"

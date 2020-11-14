@@ -22,4 +22,20 @@
     <style name="Theme.Soul.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="Theme.Soul.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--自定义主题 -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>>
+    </style>
+    <!--Full Sytle Activity 全面屏主题-->
+    <style name="AppThemeFull" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item><!--no actionbar-->
+        <item name="android:windowFullscreen">true</item><!--full screen-->
+        <item name="android:windowNoTitle">true</item><!--no title-->
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+
 </resources>

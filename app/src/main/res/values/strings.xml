@@ -1,5 +1,4 @@
 <resources>
-    <string name="app_name">Soul</string>
     <string name="action_settings">Settings</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
@@ -9,4 +8,19 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+    <string name="app_name">Soul</string>
+    <string name="app_index_text">why are you here ?</string>
+    <string name="text_guide_skip">跳过</string>
+    <string name="text_guide_pager_1">每个人，都是一颗孤独的星球</string>
+    <string name="text_guide_pager_2">我们在黑夜中寻找光明</string>
+    <string name="text_guide_pager_3">如果遇见，请面带微笑</string>
+
+
 </resources>

@@ -1,3 +1,5 @@
 include ':Framework'
+include ':Framework'
+include ':Framework'
 include ':app'
 rootProject.name = "Soul"
